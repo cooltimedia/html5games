@@ -1,0 +1,33 @@
+/* Scene styles */
+body{
+    background-color: black;
+}
+.container-full{
+    min-width: 1200px;
+    height: 700px;
+}
+.game-scene{
+    height: 100vh;
+    overflow: hidden;
+}
+.game-bg{
+    background-image: url('../images/game-bg-v1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* character styles */
+.character{
+    display: inline-block;
+    position: absolute;
+    bottom: 75px;
+    /* left: 10px; */
+}
+.character figure{
+    /* height: 120px; */
+}
+.character figure img{
+    width: 100%;
+    height: 100%;
+}
